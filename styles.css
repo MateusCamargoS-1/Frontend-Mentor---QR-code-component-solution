@@ -4,8 +4,8 @@
     --grayishBlue: #7b879d;
     --darkBlue: #1f3251;
 
-    --fontP15: 15px;
-    --borderRadius: 15px;
+    --fontP15: 0.95em;
+    --borderRadius: 1em;
 }
 
 * {
@@ -15,8 +15,7 @@
 }
 
 body {
-    width: 100%;
-    height: 100vh;
+    min-height: 100vh;
 
     background-color: var(--lightGray);
 
@@ -49,7 +48,7 @@ main .card img {
 main .card h1 {
     text-align: center;
     color: var(--darkBlue);
-    font-size: 21px;
+    font-size: 1.3em;
     font-family: 'Outfit', sans-serif;
     font-weight: 700;
 
@@ -69,7 +68,7 @@ main .card p {
 footer {
     text-align: center;
     color: var(--grayishBlue);
-    font-size: 13px;
+    font-size: 0.9em;
     font-family: 'Outfit', sans-serif;
     margin-bottom: 30px;
 }
